@@ -7,8 +7,8 @@ def puissance(x:int,y:int)-> int:
         >>>puissance(10,5)
         100000
     """
-    if y == 0:
-        return 1#cas de base
+    if y == 1:
+        return x#cas de base
     else:
         return x*puissance(x,y-1)#cas de propagation
 print(puissance(10,5))
