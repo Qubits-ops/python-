@@ -1,7 +1,7 @@
 from random import *
-import collections
+import collections as cl
 
-Card = collections.namedtuple('Card',['rank','suit'])
+Card = cl.namedtuple('Card',['rank','suit'])
 
 class FrenchDeck:
     """
