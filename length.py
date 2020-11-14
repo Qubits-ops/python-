@@ -6,4 +6,4 @@ def length(a:str)->int:
     while x != len(a):
         x+=1
     return x
-print(length("bonjour mec"))
+print(length("bonjour, maitre"))
