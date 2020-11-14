@@ -6,4 +6,8 @@ def length(a:str)->int:
     while x != len(a):
         x+=1
     return x
-print(length("bonjour, maitre"))
+
+if __name__ == '__main__':
+    import doctest
+    doctest.testmod(verbose=True)
+    print(length("bonjour, maitre"))
