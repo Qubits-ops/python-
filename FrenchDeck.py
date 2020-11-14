@@ -20,9 +20,9 @@ deck = FrenchDeck()
 print("1-: ","la taille du paquet est de:",len(deck),"cartes")
 print("2-: ","liste des cartes du deck:")
 x = 0
-while x < 53:
-    if x == 52:
-        break
+while x < 52:
+    #if x == 52:
+        #break
     for d in deck:
         x += 1 
         print("3-: ","\t",x,d)
