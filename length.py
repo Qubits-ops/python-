@@ -1,4 +1,4 @@
-def length(a:str)->int:
+def length(a:str or list or dict or tuple)->int:
     """
         reproduction de la fonction len
     """
@@ -11,3 +11,4 @@ if __name__ == '__main__':
     import doctest
     doctest.testmod(verbose=True)
     print(length("bonjour, maitre"))
+
