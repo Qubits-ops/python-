@@ -1,11 +1,8 @@
 def length(a:str or list or dict or tuple)->int:
-    """
-        reproduction de la fonction len
-    """
-    x = 0
-    while x != len(a):
-        x+=1
-    return x
+        c = 0
+        for i in a:
+            c+=1
+        return c        
 
 if __name__ == '__main__':
     import doctest
