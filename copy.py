@@ -18,7 +18,7 @@ def copy(a:list or str or int or dict or tuple)->list or str or int or dict or t
         return strt
     elif type(a) == tuple:
         tuple1 = a
-        return a
+        return tuple1
 li = [1,2,3,4,5]
 copi = copy(li)
 li.clear()
